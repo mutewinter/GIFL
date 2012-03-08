@@ -49,7 +49,7 @@ I'm using this with [Janus by Yehuda and Carl](https://github.com/carlhuda/janus
 installation was super-easy:
 
     `cd ~/.janus`
-    `git submodule add $GIT_REPO gifl`
+    `git submodule add git://github.com/sgharms/GIFL.git gifl`
 
 Restart Janus and you're good to go.
 
@@ -60,4 +60,6 @@ Restart Janus and you're good to go.
 
 # Thanks
 
-[Steve Losh](http://stevelosh.com/)
+[Steve Losh](http://stevelosh.com/):  Author of [Learn Vimscript the
+Hard Way](http://learnvimscriptthehardway.stevelosh.com/), which I
+cribbed from to get this working.
