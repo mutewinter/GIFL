@@ -43,9 +43,20 @@ If you like angle brackets:
    \*Bazinga!  # \gifl$
    <a href=http://www.urbandictionary.com/define.php?term=bazinga>Bazinga!</a>
 
+# Installation
+
+I'm using this with [Janus by Yehuda and Carl](https://github.com/carlhuda/janus) so
+installation was super-easy:
+
+    `cd ~/.janus`
+    `git submodule add $GIT_REPO gifl`
+
+Restart Janus and you're good to go.
+
 # Author
 
-Steven G. Harms (@sgharms)
+[Steven G. Harms](http://stevengharms.com)
+([@sgharms](http://twitter.com/sgharms))
 
 # Thanks
 
