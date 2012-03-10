@@ -53,6 +53,10 @@ installation was super-easy:
 
 Restart Janus and you're good to go.
 
+# Status
+
+Very, very, *very* alpha.  Report issues here for me to repair.
+
 # Author
 
 [Steven G. Harms](http://stevengharms.com)
