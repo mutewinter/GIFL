@@ -16,9 +16,8 @@ endfunction
 function! s:LuckyOperator(type) " {{{1
   if !has('ruby')
     echo("GIFL is not operational since it was not compiled with a Ruby interpreter (+ruby)")
-    finish
+    return 0
   endif
-
 
   let l:saved_unnamed_register = @@
 
