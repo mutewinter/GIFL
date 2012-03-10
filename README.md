@@ -39,9 +39,10 @@ alternatively:
     [Zooey Deschanel](http://en.wikipedia.org/wiki/Zooey_Deschanel*)
     
 If you like angle brackets:
-   :let g:LuckyOutputFormat='html'
-   \*Bazinga!  # \gifl$
-   <a href=http://www.urbandictionary.com/define.php?term=bazinga>Bazinga!</a>
+
+    :let g:LuckyOutputFormat='html'
+    *Bazinga!  # \gifl$
+    <a href=http://www.urbandictionary.com/define.php?term=bazinga>Bazinga!</a>
 
 # Installation
 
