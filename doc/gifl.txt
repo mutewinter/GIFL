@@ -1,12 +1,16 @@
-*gifl*  Plugin for doing Google's I'm feeling Lucky Based on a visual
-selection or motion
+*gifl*  Plugin for doing Google's I'm feeling Lucky 
 
 Usage                                                   *gifl-usage*
 
 Gifl is fun and easy to use.  Suppose * represents your caret:
 
-*San Francisco  <Leader>gifl2e (Gifl + motion to go to the end of 2 words)
-[San Francisco](http://www.sanfrancisco.travel/)
+*San Francisco  
+
+You type: <Leader>gifl2e (Gifl + motion to go to the end of 2 words)
+
+[San Francisco](http://www.sanfrancisco.travel/*)
+
+Or:
 
 |Weather in Paris| (visually selected) + <Leader>gifl
 [Weather in Paris](http://www.weather.com/weather/tenday/Paris+France+FRXX0076)
