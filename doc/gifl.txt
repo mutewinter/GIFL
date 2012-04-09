@@ -1,0 +1,26 @@
+*gifl*  Plugin for doing Google's I'm feeling Lucky Based on a visual
+selection or motion
+
+Usage                                                   *gifl-usage*
+
+Gifl is fun and easy to use.  Suppose * represents your caret:
+
+*San Francisco  <Leader>gifl2e (Gifl + motion to go to the end of 2 words)
+[San Francisco](http://www.sanfrancisco.travel/)
+
+|Weather in Paris| (visually selected) + <Leader>gifl
+[Weather in Paris](http://www.weather.com/weather/tenday/Paris+France+FRXX0076)
+
+Configuration                                   *gifl-configuration*
+                                                *g:LuckyOutputFormat*
+
+let g:LuckyOutputFormat = 'markdown|html'
+
+This will specify whether the term will be wrapped in HTML or Markdown
+syntax.
+
+Author
+
+Steven G. Harms ( github AT sgharms.oib.com ) 
+
+# vim: set tw=80:
