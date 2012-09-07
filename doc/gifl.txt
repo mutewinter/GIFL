@@ -23,8 +23,14 @@ let g:LuckyOutputFormat = 'markdown|html'
 This will specify whether the term will be wrapped in HTML or Markdown
 syntax.
 
+let g:GIFLSuppressRubyWarning=1
+
+This will supress the Ruby missing error message.
+
 Author
 
 Steven G. Harms ( github AT sgharms.oib.com ) 
 
 # vim: set tw=80:
+
+vim:ft=help:et:ts=2:sw=2:sts=2:norl

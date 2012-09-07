@@ -1,3 +1,20 @@
+" Helper function to log error messags in vim.
+function! s:ErrMsg(msg)
+  echohl ErrorMsg
+  echo a:msg
+  echohl None
+endfunction
+
+" We warn thte user they don't have Vim compiled Ruby unless warnings are
+" supressed.
+if !has('ruby')
+  if !exists("g:GIFLSuppressRubyWarning") ||
+      \ g:GIFLSuppressRubyWarning == "0"
+    call s:ErrMsg( "Error: GIFL requires Vim compiled with +ruby" )
+  endif
+  finish
+endif
+
 nnoremap <silent><leader>ggl :set operatorfunc=<SID>LuckyOperator<cr>g@
 vnoremap <silent><leader>ggl :<c-u>call <SID>LuckyOperator(visualmode())<cr>
 
@@ -14,10 +31,6 @@ endfunction
 " }}}1
 
 function! s:LuckyOperator(type) " {{{1
-  if !has('ruby')
-    echo("GIFL is not operational since it was not compiled with a Ruby interpreter (+ruby)")
-    return 0
-  endif
 
   let l:saved_register = @p
 
